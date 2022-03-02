@@ -42,7 +42,7 @@ p{
 /* Class */
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 
@@ -80,8 +80,9 @@ p{
 /* Title İmage */
 
 .title-image {
-    width: 60%;
+    width: 25%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 
@@ -89,6 +90,8 @@ p{
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box{
@@ -147,3 +150,49 @@ p{
 .pricing-column {
     padding: 3% 2%;
 }
+
+
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    font-size: x-large;
+}
+
+
+@media (max-width: 992px) {
+
+#title {
+    text-align: center;
+}
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
