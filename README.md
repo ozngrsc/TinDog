@@ -1,7 +1,5 @@
 # TinDog
 
-You can have a short information about me by logging into the site.
-
 Click demo to try it by yourself!
 
 ## TinDog Demo Link
